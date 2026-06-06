@@ -10,19 +10,20 @@ Sistema completo de gestão hospitalar desenvolvido em Spring Boot com APIs REST
 
 ## 📋 Índice
 
-- [Características](#características)
+- [Características](#caracteristicas)
 - [Requisitos](#requisitos)
-- [Instalação](#instalação)
-- [Configuração](#configuração)
+- [Instalação](#instalacao)
+- [Configuração](#configuracao)
 - [Como Executar](#como-executar)
 - [Estrutura da API](#estrutura-da-api)
-- [Autenticação](#autenticação)
+- [Autenticação](#autenticacao)
 - [Exemplos de Uso](#exemplos-de-uso)
 - [Modelos de Dados](#modelos-de-dados)
 - [Tratamento de Erros](#tratamento-de-erros)
 
 ---
 
+<a id="caracteristicas"></a>
 ## ✨ Características
 
 - ✅ **Autenticação JWT** - Sistema seguro com tokens JWT
@@ -38,6 +39,7 @@ Sistema completo de gestão hospitalar desenvolvido em Spring Boot com APIs REST
 
 ---
 
+<a id="requisitos"></a>
 ## 📦 Requisitos
 
 ### Mínimo
@@ -52,6 +54,7 @@ Sistema completo de gestão hospitalar desenvolvido em Spring Boot com APIs REST
 
 ---
 
+<a id="instalacao"></a>
 ## 🚀 Instalação
 
 ### 1. Clone o Repositório
@@ -100,6 +103,7 @@ docker run --name mysql-sghss \
 
 ---
 
+<a id="configuracao"></a>
 ## ⚙️ Configuração
 
 ### 1. Atualize o arquivo `application.properties`
@@ -137,6 +141,7 @@ JWT_EXPIRATION=86400000
 
 ---
 
+<a id="como-executar"></a>
 ## 🏃 Como Executar
 
 ### Opção 1: Usando Maven
@@ -176,6 +181,7 @@ curl http://localhost:8080/actuator/health
 
 ---
 
+<a id="estrutura-da-api"></a>
 ## 📡 Estrutura da API
 
 ### Base URL
@@ -197,6 +203,7 @@ http://localhost:8080
 
 ---
 
+<a id="autenticacao"></a>
 ## 🔐 Autenticação
 
 ### Sistema JWT
