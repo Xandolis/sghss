@@ -31,3 +31,10 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Temporary Files ###
+extract_pdf_text.py
+requirements_text.txt
+.venv/
+*.pyc
+__pycache__/
